@@ -7,7 +7,7 @@
                 alert("Eu te amo meu amor");
                 window.location.href = "PRESENTE 2 .html";
             } else {
-                alert("Usuário ou senha incorretos!");
+                alert("AMORRRR LEMBRA DO DIA AMORRRR!!!!");
             }
         });
 
