@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linha do Tempo</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="hearts-container"></div>
+    <h1>Nossa História Juntos</h1>
+    <div class="timeline">
+        <div class="event" onclick="toggleMedia(0)">
+            <p class="event-text">Nossa Primeira tarde juntos!</p>
+            <div class="event-images">
+                <img src="IMAGENS/01.jpg" alt="Momento especial 1" class="event-image">
+                <img src="IMAGENS/tarde.jpg" alt="Momento especial 1" class="event-image">
+            </div>
+        </div>
+        <div class="event" onclick="toggleMedia(1)">
+            <p class="event-text">Dia Que Eu me Apaixonei por completo por você!</p>
+            <div class="event-images">
+                <img src="IMAGENS/02.jpg" alt="Momento especial 3" class="event-image">
+                <img src="IMAGENS/03.jpg" alt="Momento especial 4" class="event-image">
+                <img src="IMAGENS/04.jpg" alt="Momento especial 2" class="event-image">
+            </div>
+        </div>
+        <div class="event" onclick="toggleMedia(2)">
+            <p class="event-text">Nosso Primeiro Encrontro!</p>
+            <div class="event-images">
+                <img src="IMAGENS/82.jpg" alt="Momento especial 6" class="event-image">
+                <img src="IMAGENS/14.jpg" alt="Momento especial 6" class="event-image">
+                <img src="IMAGENS/15.jpg" alt="Momento especial 6" class="event-image">
+                <img src="IMAGENS/IMG-20250219-WA0012.jpg" alt="Momento especial 6" class="event-image">
+            </div>
+        </div>
+        <div class="event" onclick="toggleMedia(3)">
+            <p class="event-text">Nosso Pedido de Namoro!</p>
+            <div class="event-images">
+                <img src="IMAGENS/05.jpg" alt="Momento especial 6" class="event-image">
+                <img src="IMAGENS/06.jpg" alt="Momento especial 6" class="event-image">
+                <img src="IMAGENS/08.jpg" alt="Momento especial 6" class="event-image">
+                <img src="IMAGENS/10.jpg" alt="Momento especial 6" class="event-image">
+            </div>
+        </div>
+
+        <div class="event">
+            <p class="event-text" onclick="toggleMedia(4)">Nossa Primeira Vez no Cinema!</p>
+            <div class="event-images"> 
+                <img src="IMAGENS/11.jpg" alt="Momento especial 6" class="event-image">
+                <img src="IMAGENS/12.jpg" alt="Momento especial 6" class="event-image">
+                <img src="IMAGENS/IMG-20250219-WA0006.jpg" alt="Momento especial 6" class="event-image">
+                
+                <!-- Vídeo que será exibido ao lado das imagens -->
+                <video class="event-video" controls poster="IMAGENS/capa.jpg">
+                    <source src="IMAGENS/13.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+            </div>
+        </div>
+        <div class="event" onclick="toggleMedia(5)">
+            <p class="event-text">Primeira Vez Que eu Fui te ver Se apresentar!</p>
+            <div class="event-images">
+                <img src="IMAGENS/IMG-20250219-WA0003.jpg" alt="Momento especial 6" class="event-image">
+                <img src="IMAGENS/IMG-20250219-WA0004.jpg" alt="Momento especial 6" class="event-image">
+                <img src="IMAGENS/IMG-20250219-WA0005.jpg" alt="Momento especial 6" class="event-image">
+                <img src="IMAGENS/sorvete.jpg" alt="Momento especial 6" class="event-image">
+            </div>
+        </div>
+
+        <div class="event">
+            <p class="event-text" onclick="toggleMedia(6)">Nossas Loucuras!</p>
+            <div class="event-images"> 
+                <img src="IMAGENS/IMG-20250219-WA0007.jpg" alt="Momento especial 6" class="event-image">
+                <img src="IMAGENS/IMG-20250219-WA0008.jpg" alt="Momento especial 6" class="event-image">
+                <img src="IMAGENS/IMG-20250219-WA0009.jpg" alt="Momento especial 6" class="event-image">
+                
+                <!-- Vídeo que será exibido ao lado das imagens -->
+                <video class="event-video" controls poster="IMAGENS/capa2.jpg">
+                    <source src="IMAGENS/VID-20250219-WA0001.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+            </div>
+        </div>
+
+    <script src="javascript1.js"></script>
+</body>
+</html>

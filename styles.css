@@ -1,0 +1,79 @@
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+}
+
+
+#hearts-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.heart {
+    position: absolute;
+    color: purple;
+    font-size: 20px;
+    opacity: 0.8;
+    animation: floatUp 4s linear infinite;
+}
+
+@keyframes floatUp {
+    0% {
+        transform: translateY(100vh) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-10vh) scale(1.5);
+        opacity: 0;
+    }
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F8F1E3;
+    position: relative;
+}
+
+.login-container {
+    background: #F8F1E3;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 50%;
+    max-width: 250px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: purple;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 110%;
+}
+
+.corner-decor {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to center, rgba(128, 0, 128, 1), rgba(128, 0, 128, 0));
+}
